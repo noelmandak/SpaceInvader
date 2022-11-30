@@ -27,6 +27,11 @@ pip install pillow
     ```
     python -m SpaceInvader -db_init=False
     ```
+    
+    Jika ingin mereset scoreboard jalankan dengan cara
+    ```
+    python -m SpaceInvader -db_init=True
+    ```
   
 5. Akan Muncul Jendela Permainan, Tekan apa saja atau klik layar jendela untuk masuk ke menu utama
 6. Dalam Menu Utama terdapat 4 Tombol yaitu, New Player, Registered Player, Score Board, dan Quit(x)
