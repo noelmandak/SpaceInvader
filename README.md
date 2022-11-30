@@ -77,7 +77,7 @@ Saat test tersebut dijalankan seharusnya email sanga.lawalata@calvin.ac.id menda
 Seharusnya itu bisa pake mock, tapi supaya bisa tahu terkirim atau tidak saya pake kirim email yang beneran.
 
 
-## untuk melihat grafik analisa pemain, jalankan program dengan:
+### untuk melihat grafik analisa pemain, jalankan program dengan:
 ```
 python -m SpaceInvader -db_init=demo
 ```
