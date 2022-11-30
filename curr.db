@@ -1,0 +1,28 @@
+DROP TABLE game_play_history;
+CREATE TABLE game_play_history(
+        id_game INTEGER KEY,
+        username TEXT,
+            score INTEGER,
+        accuracy NUMBER,
+    enemy_kiled INTEGER,
+    bullet_lost INTEGER,
+    time_start DATETIME,
+        duration INTEGER,
+        level INTEGER
+);
+
+INSERT INTO game_play_history VALUES (1,"noel",90,69.23,30,40,1639447105.13815,19.9238393306732,1);
+INSERT INTO game_play_history VALUES (2,"patrick",540,81.82,30,40,1639447333.89749,89.0308265686035,4);
+INSERT INTO game_play_history VALUES (3,"noel",1000,81.97,30,40,1639448934.51488,163.254685640335,6);
+INSERT INTO game_play_history VALUES (4,"jabez",240,100,30,40,1639450125,46,2);
+INSERT INTO game_play_history VALUES (5,"sanga",220,68.75,30,40,1639452861,42,2);
+INSERT INTO game_play_history VALUES (6,"sanga",300,81.08,30,40,1639452915,55,2);
+INSERT INTO game_play_history VALUES (7,"jc19",320,84.21,30,40,1639453079,76,3);
+INSERT INTO game_play_history VALUES (8,"dd",30,42.86,30,40,1639453221,18,1);
+INSERT INTO game_play_history VALUES (9,"stefannus",50,62.5,30,40,1639454250,17,1);
+INSERT INTO game_play_history VALUES (10,"stefannus",310,75.61,30,40,1639454274,47,3);
+INSERT INTO game_play_history VALUES (11,"stefannus",210,63.64,30,40,1639454371,41,2);
+INSERT INTO game_play_history VALUES (12,"stefannus",330,82.5,30,40,1639454416,50,3);
+INSERT INTO game_play_history VALUES (13,"stefannus",140,77.78,30,40,1639454518,23,2);
+INSERT INTO game_play_history VALUES (14,"stefannus",950,84.82,30,40,1639454550,145,6);
+INSERT INTO game_play_history VALUES (15,"renata",390,72.22,30,40,1639454872,78,3);
