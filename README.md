@@ -37,6 +37,7 @@ pip install pillow
 6. Dalam Menu Utama terdapat 4 Tombol yaitu, New Player, Registered Player, Score Board, dan Quit(x)
 7. Jika Pemain belum pernah melakukan registrasi, Tekan tombol New Player.
 
+
     * Isi kolom Username, Age, dan Email
     * Kolom Username hanya dapat diisi dengan huruf kecil, angka, dan simbol sperti !@#$%^&*()_+-=~:<>,.
     * Kolom Username hanya dapat diisi 10 karakter
@@ -44,6 +45,9 @@ pip install pillow
     * Kolom email dapat di isi dengan huruf kecil, angka, dan simbol sperti !@#$%^&*()_+-=~:<>,. tanpa batasan karakter
     * Jika sudah disi, tekan tanda > untuk melanjutkan ke halaman start permainan
     * Username bersifat unik, jadi jika username telah terdaftar, silahkan pilih username lain
+    
+    ![alt text](https://github.com/noelmandak/SpaceInvader/blob/master/resource/screenshoot/2.a%20new%20player.png?raw=true)
+
   
 6. Jika Pemain sudah pernah melakukan registrasi, Tekan tombol Registered Player.
     * Isi kolom Username
@@ -51,13 +55,25 @@ pip install pillow
     * Kolom Username hanya dapat diisi 10 karakter
     * Kalau sudah di isi, tanda > untuk melanjutkan ke halaman start permainan
     * Jika ternyata username belum pernah diregistrasi, anda perlu kembali ke menu utama dengan menekan tombol < , lalu meregistrasi diri anda
+
+    ![alt text](https://github.com/noelmandak/SpaceInvader/blob/master/resource/screenshoot/2.a%20registered%20player.png?raw=true)
+
+
 7. Tombol ScoreBoard untuk menapilkan rangking dari semua pemain terdaftar berdasarkan skor tertinggi mereka
-8. Tombol quit (x) itu akan meminta konfirmasi, mau keluar atau tidak, kalau mau keluar tekan centang kalau batal tekan silang
-9. Dalam Halaman start permainan, terdapat 3 tombol yaitu, back(<), play, dan player analytics
+
+
+    ![alt text](https://github.com/noelmandak/SpaceInvader/blob/master/resource/screenshoot/2.c%20scoreboard.png?raw=true)
+
+
+9. Tombol quit (x) itu akan meminta konfirmasi, mau keluar atau tidak, kalau mau keluar tekan centang kalau batal tekan silang
+10. Dalam Halaman start permainan, terdapat 3 tombol yaitu, back(<), play, dan player analytics
     * Jika tombol back(<) ditekan, maka akan kemabali ke menu utama
     * Jika tombol play ditekan maka akan masuk ke halaman in game
     * Jika tombol player analytics maka masuk ke halaman analisa player
-10. Dalam halaman in game, 
+
+    ![alt text](https://github.com/noelmandak/SpaceInvader/blob/master/resource/screenshoot/3%20start%20page.png?raw=true)
+
+11. Dalam halaman in game, 
     * Player dapat menggerakan suatu SpaceShip (pesawat luar angkasa) ke kiri dan ke kanan menggunakan arrow ← → dan menembak dengan menekan spasi
     * Terdapat alien yang bergerak ke kanan dan kekiri, dan jika alien mencapai ujung dia akan turun satu langkah
     * Misi Player adalah menjaga agar alien tidak mencapai garis putus-putus yang ada didepan SpaceShip dengan cara menembak alien-alien tersebut
@@ -71,11 +87,19 @@ pip install pillow
     * Jika alien menyentuh garis putus-putus atau player menyerah game akan berhenti (Game Over)
     * Pada saat Game Over, akan ada tampilan score dari game saat itu, highscore yang pernah didapatkan, jumlah alien yang mati, jumlah peluru yang dikeluarkan, akurasi dan durasi permainan
     * Setelah Game Over, tekan tombol > untuk kembali ke halaman start permainan
-11. Dalam halaman analisa pemain,
+
+
+    ![alt text](https://github.com/noelmandak/SpaceInvader/blob/master/resource/screenshoot/5.a%20in%20game.png?raw=true)
+
+12. Dalam halaman analisa pemain,
     * Terdapat 4 tombol yang bisa dipilih yaitu, score, accuracy, enemy killed dan duration
     * Jika tombol tersebut ditekan, akan muncul history permainan pemain dalam bentuk diagram garis
     * Dengan visualisasi tersebut, pemain dapat menyusun strategi lagi untuk meningkatkan kemampuannya baik itu semakin besar skor, meningkatkan akurasi dan tambah tahan lama.
     * Player bisa kembali ke halaman Start permainan dengan cara menekan tombol back (<)
+
+
+    ![alt text](https://github.com/noelmandak/SpaceInvader/blob/master/resource/screenshoot/4.a%20score%20analytics.png?raw=true)
+
 
 ## Untuk pak sanga
 Karena saya tidak bisa mendemokannya langsung, saya mengganti satu email player dari test saya menjadi email bapak, agar bisa tahu emailnya terkirim atau tidak.
