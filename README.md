@@ -1,4 +1,6 @@
 # SpaceInvader
+![alt text](https://github.com/noelmandak/SpaceInvader/blob/master/resource/screenshoot/1%20main%20menu.png?raw=true)
+
 
 ## Library eksernal yang digunakan:
 * pygame
