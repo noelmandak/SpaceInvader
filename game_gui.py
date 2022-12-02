@@ -483,7 +483,7 @@ class GameGui:
         self.enemies.spawn_random_all_enemies()
         time_start = time.time()
         while running:
-            self.clock.tick(20+8*level)
+            self.clock.tick(20+5*level)
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
@@ -536,7 +536,8 @@ class GameGui:
                     level +=1 
                     level_check_point += 200 
                     if level % 5 == 0: #Setiap levelnya mencapai kelipatan 5 munculin musuh baru
-                        for i in range(level//5): self.enemies.create_new_enemy() #musuh barunya sebanyak kelipatan 5 dari levelnya
+                        # for i in range(level//5): self.enemies.create_new_enemy() #musuh barunya sebanyak kelipatan 5 dari levelnya
+                        self.enemies.create_new_enemy()
 
 
             if self.enemies.game_over_checker():
@@ -776,12 +777,12 @@ class SpaceShip:
 class Alien:
     def __init__(self,x_spawn,y_spawn):
         self.alive = True
-        # self.alien_img = pygame.image.load("SpaceInvader\\resource\\alien1.png")
-        headlist = [pygame.image.load("SpaceInvader\\resource\\bryan_head.png"),
-                    pygame.image.load("SpaceInvader\\resource\\victor_head.png"),
-                    pygame.image.load("SpaceInvader\\resource\\stef_head.png"),
-                    pygame.image.load("SpaceInvader\\resource\\udey_head.png")]
-        self.alien_img = headlist[random.randint(0,3)]
+        self.alien_img = pygame.image.load("SpaceInvader\\resource\\alien1.png")
+        # headlist = [pygame.image.load("SpaceInvader\\resource\\bryan_head.png"),
+        #             pygame.image.load("SpaceInvader\\resource\\victor_head.png"),
+        #             pygame.image.load("SpaceInvader\\resource\\stef_head.png"),
+        #             pygame.image.load("SpaceInvader\\resource\\udey_head.png")]
+        # self.alien_img = headlist[random.randint(0,3)]
         self.x_pos = x_spawn
         self.y_pos = y_spawn
         self.move_x_dist = 5

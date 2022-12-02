@@ -21,6 +21,7 @@ class EmailSender:
             print("email terkirim")
         except:
             print("email gagal dikirim")
+            print("\n",receiver,"\n",msg,"\n")
 
 # sender = EmailSender()
 # sub = "Percobaan"
